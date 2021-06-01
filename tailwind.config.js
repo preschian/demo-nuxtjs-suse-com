@@ -11,12 +11,18 @@ module.exports = {
   theme: {
     extend: {
       container: {
-        padding: '2rem',
+        padding: '1.5rem',
         center: 'true',
       },
       colors: {
         orange: {
           DEFAULT: '#FE7C3F',
+        },
+        gray: {
+          DEFAULT: '#333',
+        },
+        blue: {
+          DEFAULT: '#2453FF',
         },
       },
     },
