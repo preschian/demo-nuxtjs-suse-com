@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 640px) {
+  .container-grid {
+    max-width: calc((640px - 48px) / 2);
+  }
+}
+@media (min-width: 768px) {
+  .container-grid {
+    max-width: calc((768px - 48px) / 2);
+  }
+}
+@media (min-width: 1024px) {
+  .container-grid {
+    max-width: calc((1024px - 48px) / 2);
+  }
+}
+@media (min-width: 1280px) {
+  .container-grid {
+    max-width: calc((1280px - 48px) / 2);
+  }
+}
+@media (min-width: 1536px) {
+  .container-grid {
+    max-width: calc((1536px - 48px) / 2);
+  }
+}

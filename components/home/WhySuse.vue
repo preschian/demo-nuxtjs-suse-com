@@ -2,7 +2,7 @@
   <div class="lg:flex">
     <div class="bg-gray-100 lg:flex-1">
       <div class="lg:flex lg:flex-col lg:justify-between lg:h-full">
-        <div class="p-6 lg:px-12 lg:py-20">
+        <div class="p-6 container-grid lg:pl-0 lg:py-20 lg:pr-12 lg:ml-auto">
           <p class="text-3xl font-medium lg:text-4xl">Why SUSE?</p>
           <p class="mt-6">
             Because we give you choice—unparalleled choice. With us, you have
@@ -20,7 +20,18 @@
     </div>
 
     <div class="bg-green lg:flex-1">
-      <div class="px-6 pt-16 text-white lg:px-12 lg:pt-20">
+      <div
+        class="
+          px-6
+          pt-16
+          text-white
+          container-grid
+          lg:mr-auto
+          lg:pr-0
+          lg:pl-12
+          lg:pt-20
+        "
+      >
         <div
           v-for="(item, index) in items"
           :key="item.title"
