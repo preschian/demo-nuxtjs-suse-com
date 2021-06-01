@@ -1,32 +1,49 @@
 <template>
-  <div>
-    <div class="bg-gray-100">
-      <div class="p-6">
-        <p class="text-3xl font-medium">Why SUSE?</p>
-        <p class="mt-6">
-          Because we give you choice—unparalleled choice. With us, you have the
-          power to innovate everywhere—from the data center, to the cloud, to
-          the edge and beyond.
-        </p>
+  <div class="lg:flex">
+    <div class="bg-gray-100 lg:flex-1">
+      <div class="lg:flex lg:flex-col lg:justify-between lg:h-full">
+        <div class="p-6 lg:px-12 lg:py-20">
+          <p class="text-3xl font-medium lg:text-4xl">Why SUSE?</p>
+          <p class="mt-6">
+            Because we give you choice—unparalleled choice. With us, you have
+            the power to innovate everywhere—from the data center, to the cloud,
+            to the edge and beyond.
+          </p>
+        </div>
+
+        <nuxt-img
+          src="/images/home/points_left_img.png"
+          class="lg:object-cover lg:h-full"
+          alt="Why SUSE?"
+        />
       </div>
-      <nuxt-img src="/images/home/points_left_img.png" />
     </div>
 
-    <div class="bg-green px-6 pt-16 text-white">
-      <div v-for="(item, index) in items" :key="item.title" class="pb-16">
-        <p
-          class="
-            text-6xl text-green-light
-            font-medium
-            text-center
-            border-t-4 border-green-light
-            pt-2
-          "
+    <div class="bg-green lg:flex-1">
+      <div class="px-6 pt-16 text-white lg:px-12 lg:pt-20">
+        <div
+          v-for="(item, index) in items"
+          :key="item.title"
+          class="pb-16 lg:flex lg:pb-20 lg:gap-12"
         >
-          0{{ index + 1 }}
-        </p>
-        <p class="font-medium text-2xl mt-3">{{ item.title }}</p>
-        <p class="mt-3">{{ item.desc }}</p>
+          <p
+            class="
+              text-6xl text-green-light
+              font-medium
+              text-center
+              border-t-4 border-green-light
+              pt-2
+              lg:px-3
+            "
+          >
+            0{{ index + 1 }}
+          </p>
+
+          <div>
+            <p class="font-medium text-2xl mt-3">{{ item.title }}</p>
+            <p class="mt-3">{{ item.desc }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
