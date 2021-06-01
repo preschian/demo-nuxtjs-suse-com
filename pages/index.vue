@@ -1,5 +1,5 @@
 <template>
-  <div><HomeBanner /> <HomeCallouts /></div>
+  <div><HomeBanner /> <HomeCallouts /> <HomeWhySuse /></div>
 </template>
 
 <script>

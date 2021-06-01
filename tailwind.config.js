@@ -24,6 +24,10 @@ module.exports = {
         blue: {
           DEFAULT: '#2453FF',
         },
+        green: {
+          DEFAULT: '#0c322c',
+          light: '#30ba78',
+        },
       },
     },
   },
