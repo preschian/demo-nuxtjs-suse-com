@@ -3,6 +3,7 @@
     <HomeBanner />
     <HomeCallouts />
     <HomeWhySuse />
+    <HomeHelpCustomer />
   </div>
 </template>
 
