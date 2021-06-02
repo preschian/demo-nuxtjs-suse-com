@@ -18,7 +18,7 @@
         :key="item.title"
         :href="item.link"
         target="_blank"
-        class="block w-1/2"
+        class="block w-1/2 lg:w-1/5"
       >
         <img :src="item.icon" :title="item.title" class="w-20 inline-block" />
         <p class="mt-1">{{ item.title }}</p>
