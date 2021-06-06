@@ -57,7 +57,7 @@ export default {
           type: 'box',
           title: 'To infinity, and beyond!',
           desc: `Check out how Hypergiant has worked with SUSE RGS to put K3s in orbit! It's out of this world...`,
-          cta: '#!',
+          cta: 'https://www.suse.com/success/hypergiant/',
           ctaText: 'See how',
           cssBox: {
             'order-1': true,
@@ -88,7 +88,7 @@ export default {
           title:
             'Say Goodbye to Downtime for your mission critical SAP solutions',
           desc: ' Downtime is never an option. Discover how to achieve continuous uptime of your mission critical SAP HANA and other SAP applications.',
-          cta: '#!',
+          cta: 'https://www.suse.com/campaigns/goodbye-downtime/',
           ctaText: 'Read more',
           cssBox: {
             'p-6': true,
@@ -115,7 +115,7 @@ export default {
           title:
             'One platform, infinite innovations. Step into the future with SUSE edge Computing.',
           desc: ` Read how SUSE enables you to create smart edge infrastructure so you can bring the next generation of intelligent products and applications.`,
-          cta: '#!',
+          cta: 'https://www.suse.com/solutions/innovate-at-the-edge/',
           ctaText: 'Learn more',
           cssBox: {
             'order-5': true,
