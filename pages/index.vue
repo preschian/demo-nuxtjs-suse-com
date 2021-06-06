@@ -4,6 +4,7 @@
     <HomeCallouts />
     <HomeWhySuse />
     <HomeHelpCustomer />
+    <HomeBigCards />
   </div>
 </template>
 
