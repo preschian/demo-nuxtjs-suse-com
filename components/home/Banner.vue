@@ -19,10 +19,7 @@
             text-white text-3xl
             mt-10
             font-medium
-            lg:text-6xl
-            lg:w-4/5
-            lg:mx-auto
-            lg:leading-normal
+            lg:text-6xl lg:w-4/5 lg:mx-auto lg:leading-normal
           "
         >
           Missed the final orbit around SUSECON? Watch SUSECON fully on demand.

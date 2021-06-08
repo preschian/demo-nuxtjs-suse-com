@@ -26,10 +26,7 @@
           pt-16
           text-white
           container-grid
-          lg:mr-auto
-          lg:pr-0
-          lg:pl-12
-          lg:pt-20
+          lg:mr-auto lg:pr-0 lg:pl-12 lg:pt-20
         "
       >
         <div
