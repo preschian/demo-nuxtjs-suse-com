@@ -5,6 +5,7 @@
     <HomeWhySuse />
     <HomeHelpCustomer />
     <HomeBigCards />
+    <HomeHeroes />
   </div>
 </template>
 
