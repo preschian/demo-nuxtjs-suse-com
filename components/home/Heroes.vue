@@ -7,7 +7,7 @@
         mission-critical needs.
       </p>
 
-      <div class="grid grid-cols-3 items-center gap-y-6 my-8">
+      <div class="grid grid-cols-3 items-center gap-y-6 my-8 lg:grid-cols-10">
         <img
           v-for="brand in brands"
           :key="brand"
