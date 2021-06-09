@@ -10,9 +10,7 @@
               flex flex-wrap
               justify-between
               gap-3
-              lg:justify-start
-              lg:items-center
-              lg:gap-x-8
+              lg:justify-start lg:items-center lg:gap-x-8
             "
           >
             <img

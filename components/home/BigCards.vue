@@ -15,9 +15,7 @@
       <div
         v-else
         class="
-          lg:h-full
-          lg:flex lg:flex-col
-          lg:justify-between
+          lg:h-full lg:flex lg:flex-col lg:justify-between
           container-grid
           lg:py-12
         "
