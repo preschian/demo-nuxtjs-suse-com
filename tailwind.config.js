@@ -20,6 +20,7 @@ module.exports = {
         },
         gray: {
           DEFAULT: '#333',
+          light: '#5f5f5f',
         },
         blue: {
           DEFAULT: '#2453FF',
@@ -35,4 +36,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

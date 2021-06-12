@@ -75,7 +75,7 @@ export default {
           desc: 'We introduced enterprise-grade Linux in 1994 and have served businesses around the world for more than 28 years. Working to earn and keep your trust is our number one priority.',
         },
       ],
-    }
+    };
   },
-}
+};
 </script>

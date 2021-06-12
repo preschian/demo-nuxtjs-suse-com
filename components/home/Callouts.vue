@@ -48,7 +48,7 @@ export default {
           border: 'border-blue',
         },
       ],
-    }
+    };
   },
-}
+};
 </script>

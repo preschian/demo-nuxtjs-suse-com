@@ -55,7 +55,7 @@ export default {
         'SAP_2011_logo',
         'Walmart_logo',
       ],
-    }
+    };
   },
-}
+};
 </script>

@@ -119,15 +119,15 @@ export default {
         'Communications Preferences': 'https://www.suse.com/company/subscribe/',
         'Contact Us': 'https://www.suse.com/contact/',
       },
-    }
+    };
   },
   computed: {
     year() {
-      const d = new Date()
-      return d.getFullYear()
+      const d = new Date();
+      return d.getFullYear();
     },
   },
-}
+};
 </script>
 
 <style scoped>
