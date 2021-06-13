@@ -17,6 +17,7 @@
               src="/svg/suse-white-logo-green.svg"
               alt="Suse"
               class="hidden lg:block w-40"
+              style="margin-left: -13px"
             />
             <a
               v-for="(link, text) in links"
@@ -119,15 +120,15 @@ export default {
         'Communications Preferences': 'https://www.suse.com/company/subscribe/',
         'Contact Us': 'https://www.suse.com/contact/',
       },
-    }
+    };
   },
   computed: {
     year() {
-      const d = new Date()
-      return d.getFullYear()
+      const d = new Date();
+      return d.getFullYear();
     },
   },
-}
+};
 </script>
 
 <style scoped>

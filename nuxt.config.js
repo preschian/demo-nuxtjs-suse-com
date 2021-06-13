@@ -2,7 +2,7 @@ export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'demo-vue-suse-com',
+    title: 'SUSE - Open Source Solutions for Enterprise Servers & Cloud | SUSE',
     htmlAttrs: {
       lang: 'en',
     },
@@ -36,4 +36,4 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-}
+};

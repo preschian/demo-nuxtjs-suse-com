@@ -58,7 +58,7 @@ export default {
           link: 'https://www.suse.com/download/',
         },
       ],
-    }
+    };
   },
-}
+};
 </script>

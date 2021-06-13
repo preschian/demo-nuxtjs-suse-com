@@ -1,7 +1,7 @@
 <template>
   <div
     style="background-image: url('/images/home/countdown_susecon.png')"
-    class="py-10 relative bg-cover lg:pb-32"
+    class="py-10 relative bg-cover lg:pt-28 lg:pb-32"
   >
     <div class="container">
       <div

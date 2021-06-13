@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Nuxt />
+    <Header />
+
+    <Nuxt class="pt-14 lg:pt-16" />
 
     <Footer />
   </div>
