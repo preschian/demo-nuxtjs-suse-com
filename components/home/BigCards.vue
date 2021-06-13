@@ -11,6 +11,7 @@
         :src="item.src"
         :alt="item.title"
         class="w-full"
+        loading="lazy"
       />
       <div
         v-else
