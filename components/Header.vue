@@ -41,10 +41,6 @@ const menuProducts = [
     title: 'SUSE Linux Enterprise',
     items: [
       {
-        type: 'category',
-        title: 'SERVER',
-      },
-      {
         type: 'link',
         title: 'SUSE Linux Enterprise Server',
       },
@@ -59,13 +55,6 @@ const menuProducts = [
       {
         type: 'link',
         title: 'SUSE Linux Enterprise for Arm',
-      },
-      {
-        type: 'divider',
-      },
-      {
-        type: 'category',
-        title: 'ENVIRONMENTS',
       },
       {
         type: 'link',
@@ -92,13 +81,6 @@ const menuProducts = [
         title: 'SUSE for Public Cloud',
       },
       {
-        type: 'divider',
-      },
-      {
-        type: 'category',
-        title: 'Management & Extensions',
-      },
-      {
         type: 'link',
         title: 'SUSE Manager',
       },
@@ -115,10 +97,6 @@ const menuProducts = [
   {
     title: 'SUSE Rancher',
     items: [
-      {
-        type: 'category',
-        title: 'Kubernetes Management',
-      },
       {
         type: 'link',
         title: 'SUSE Rancher',
