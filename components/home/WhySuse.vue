@@ -15,6 +15,7 @@
           src="/images/home/points_left_img.png"
           class="lg:object-cover lg:h-full"
           alt="Why SUSE?"
+          loading="lazy"
         />
       </div>
     </div>
