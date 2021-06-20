@@ -85,11 +85,11 @@
               v-if="menu.type === 'link'"
               :href="menu.href"
               target="_blank"
-              class="block bg-orange text-green font-medium px-3 py-1"
+              class="block bg-orange text-green font-medium px-2 py-1 text-sm"
             >
               {{ menu.title }}
             </a>
-            <p v-else class="font-bold px-3 py-1">{{ menu.title }}</p>
+            <p v-else class="font-bold px-2 py-1 text-sm">{{ menu.title }}</p>
 
             <div
               v-if="submenus[`menu${menu.title}`]"
@@ -195,7 +195,7 @@ export default {
     let scrollBefore = 0;
 
     window.addEventListener('scroll', (e) => {
-      const scrolled = window.scrollY;
+      const scrolled = window.scrollY + 56;
 
       if (scrollBefore > scrolled) {
         this.scrollPosition = 'up';
