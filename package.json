@@ -28,5 +28,10 @@
     "eslint-plugin-vue": "^7.7.0",
     "postcss": "^8.2.8",
     "prettier": "^2.2.1"
+  },
+  "resolutions": {
+    "normalize-url": "^6.0.1",
+    "css-what": "^5.0.1",
+    "glob-parent": "^5.1.2"
   }
 }
